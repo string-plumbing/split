@@ -1,15 +1,18 @@
 :vulcan_salute: [@string-plumbing/split](https://string-plumbing.github.io/split)
 ==
 
-Split a string into substrings given a pattern for JavaScript.
+Split a string into substrings given a pattern with JavaScript.
 See [docs](https://string-plumbing.github.io/split/index.html).
-
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
 
 > :warning: Depending on your environment, the code may require
 > `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+
+```js
+import {split} from '@string-plumbing/split';
+
+split('A, B, C', ', '); // ['A', 'B', 'C']
+```
 
 [![License](https://img.shields.io/github/license/string-plumbing/split.svg)](https://raw.githubusercontent.com/string-plumbing/split/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-plumbing/split.svg)](https://www.npmjs.org/package/@string-plumbing/split)

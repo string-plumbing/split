@@ -13,7 +13,7 @@ import 'regenerator-runtime/runtime.js';
 
 Then, import the library where needed
 ```js
-const split = await import('@string-plumbing/split');
+const {split, _split} = await import('@string-plumbing/split');
 // or
-import * as split from '@string-plumbing/split';
+import {split, _split} from '@string-plumbing/split';
 ```
