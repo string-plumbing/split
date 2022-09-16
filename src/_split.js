@@ -1,7 +1,5 @@
 import {ValueError} from '@failure-abstraction/error';
 
-export const WHITESPACE = /\s+/;
-
 /**
  * _split.
  *
@@ -22,16 +20,18 @@ export default function* _split(string, sep = undefined, maxsplit = undefined) {
 	if (sep === undefined) {
 		let i = 0;
 
+		const re = /\s+/g;
+
 		while (maxsplit--) {
-			const match = string.slice(i).match(WHITESPACE);
+			const match = re.exec(string);
 
 			if (match === null) {
 				break;
 			}
 
-			const j = i + match.index;
+			const j = match.index;
 
-			if (j > 0) {
+			if (i < j) {
 				yield string.slice(i, j);
 			}
 
