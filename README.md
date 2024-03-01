@@ -16,7 +16,7 @@ split('A, B, C', ', '); // ['A', 'B', 'C']
 
 [![License](https://img.shields.io/github/license/string-plumbing/split.svg)](https://raw.githubusercontent.com/string-plumbing/split/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-plumbing/split.svg)](https://www.npmjs.org/package/@string-plumbing/split)
-[![Tests](https://img.shields.io/github/workflow/status/string-plumbing/split/ci?event=push&label=tests)](https://github.com/string-plumbing/split/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/string-plumbing/split/ci.yml?branch=main&event=push&label=tests)](https://github.com/string-plumbing/split/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/string-plumbing/split.svg)](https://github.com/string-plumbing/split/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/string-plumbing/split.svg)](https://github.com/string-plumbing/split/issues)
 [![Downloads](https://img.shields.io/npm/dm/@string-plumbing/split.svg)](https://www.npmjs.org/package/@string-plumbing/split)
