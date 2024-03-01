@@ -1,4 +1,5 @@
 import {list} from '@iterable-iterator/list';
+
 import _split from './_split.js';
 
 /**
